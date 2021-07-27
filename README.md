@@ -21,6 +21,7 @@ Laravel 8 sürümü ile yazılmış blog arayüzü.
 - Makale - Kategori olarak temel 2 özellik barındırılmakta ve yapısı wordpress ile aynı.
 - Makaleler ve kategorilerin aktifleştirip pasifleştirilebilmesi için database tarafında 1 ve 0 olarak status sütununda 2 değere sahiptir.
 - Makaleler için database'de bulunan hit sütunu bir makalenin ne kadar çok okunduğunu temsil etmektedir. 
+- Database seeding işleminde makaleler için faker kütüphanesi kullanılmıştır.
 - İletişim bölümünden gönderilen mesajlar veritabanına kaydedilmekte.
 - Toastr eklentisi ile iletişimden gönderilen mesajın bildirimi görülebilmektedir.
 - Proje Web 1.0 baz alınarak hazırlanmıştır. Ziyaretçilerin iletişim bölümü dışında sadece okuyucu konumundadır.
